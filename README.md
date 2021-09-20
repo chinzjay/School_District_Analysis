@@ -4,7 +4,7 @@
 The purpose of this analysis is to analyze the school district data after replacing the scores of ninth graders at Thomas High School with NaNs as the scores seems to be altered and to analyze how these changes affected the overall analysis. 
 
 ## Results
-Using Pandas loc method with conditional statements, comparison and logical operators, the ninth-grade reading and math scores for Thomas High School were selected. A total of 461 scores were selected using the above criteria and their math and reading scores were changed to NaNs using the Pandas NumPy module. Since the scores were replaced, the new passing percentages were calculated using the new student count which was obtained by subtracting the selected student count(461) from the original student count(39170).
+Using Pandas loc method with conditional statements, comparison and logical operators, the ninth-grade reading and math scores for Thomas High School were selected. A total of 461 scores were selected using the above criteria and their math and reading scores were changed to NaNs using the Pandas NumPy module (https://github.com/chinzjay/School_District_Analysis/blob/main/PyCity_Schools_Challenge.ipynb). Since the scores were replaced, the new passing percentages were calculated using the new student count which was obtained by subtracting the selected student count (461) from the original student count (39170).
 1. **District Summary Analysis** 
 
 *Fig 1*  depicts the district summary Dataframe without making any changes to the reading and math scores of ninth graders at Thomas High School. *Fig 2*  depicts the summary Dataframe after the scores were replaced. 
